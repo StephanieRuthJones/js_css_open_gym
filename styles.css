@@ -9,12 +9,16 @@ body {
     width: 100vw;
     /* columns: 2fr 6fr 2fr; */
     /* rows: 1fr 11fr 1fr; */
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 1fr 11fr 1fr;
     /* create named grid template areas */
+    grid-template-areas: "nav nav nav" "content content menu" "footer footer footer";
     /* assign grid areas to nav, content, menu and footer elements */
 }
 
 nav {
     background-color: yellow;
+    grid-area: nav;
 }
 
 .nav-menu {
