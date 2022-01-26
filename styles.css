@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    height: 200vh;
+    width: 100vw;
+    /* columns: 2fr 6fr 2fr; */
+    /* rows: 1fr 11fr 1fr; */
+    /* create named grid template areas */
+    /* assign grid areas to nav, content, menu and footer elements */
+}
+
+nav {
+    background-color: yellow;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin-right: 20%;
+    /* create flexbox nav */
+}
+
+.restaurant-name {
+    /* apply flex grow so takes up 2x space */
+    margin-left: 5%;
+}
+
+li {
+    font-size: 20px;
+    margin: 5%;
+    padding: 3%;
+}
+
+.content {
+    background-color: aquamarine;
+}
+
+#about,
+#menu {
+    margin: 5% 10%;
+}
+
+.card {
+    border: 1px solid grey;
+    width: 25%;
+    padding: 3%;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+img {
+    height: 100%;
+    width: 75%;
+}
+
+.card-body {
+    width: 80%;
+    font-size: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.side-nav {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: lightpink;
+}
